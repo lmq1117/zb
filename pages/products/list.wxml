@@ -1,0 +1,55 @@
+<view class="page">
+	<view class="page__bd page__bd_spacing">
+		<view class="weui-flex">
+			<!-- banner -->
+			<view class="weui-flex__item">
+				<image class="weui-article__img" src="../../weui-dist/example/images/pic_article.png" />
+			</view>
+		</view>
+
+
+
+    <!-- 企业资产保障 -->
+		<view class="weui-flex product-item">
+			<view class="weui-flex__item">
+
+
+				<view class="weui-article">
+					<view class="weui-article__section">
+						<view class="weui-article__h2">企业资产保障</view>
+						<view class="weui-article__section">
+							<view class="weui-article__p">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</view>
+							<view class="weui-article__p">
+								<image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+							</view>
+						</view>
+						<view class="weui-article__section">
+							<view class="weui-article__h3">1.2 节标题</view>
+							<view class="weui-article__p">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</view>
+						</view>
+					</view>
+				</view>
+
+
+				<image class="weui-article__img" src="../../weui-dist/example/images/pic_article.png" />
+
+				<view class="weui-article__h2">企业资产保障</view>
+				<view class="weui-article__p">专为光伏、风电 保障企业遭受自然灾害及意外事故时，发生的物质损失及毛利润损失
+					保障企业遭受自然灾害及意外事故时，发生的物质损失及毛利润损失</view>
+
+				<view class="placeholder">weui1</view>
+
+			</view>
+		</view>
+	</view>
+</view>

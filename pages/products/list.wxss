@@ -1,0 +1,16 @@
+.page{
+  background-color: beige;
+}
+.weui-flex{
+  border: 1rpx solid #ff0000;
+}
+
+.weui-article__img {
+  /* display: flex;
+  justify-content: center; */
+  width:100%;
+}
+
+.product-item {
+  background-color: beige;
+}
