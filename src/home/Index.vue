@@ -1,8 +1,9 @@
 <template>
   <div class="cnt">
     <Header></Header>
+    <main-banner></main-banner>
     <div>
-      <a href="/test/list/321">当前页跳转</a>
+      <a href="/test/list/321">当前页跳转1</a>
       <a href="/test/detail/123" target="_blank">新开页面跳转</a>
       <button @click="onClickJump">当前页跳转</button>
       <button @click="onClickOpen">新开页面跳转</button>
@@ -30,6 +31,7 @@
 import Vue from 'vue'
 import Header from '../common/Header.vue'
 import Footer from '../common/Footer.vue'
+import MainBanner from '../common/MainBanner.vue'
 import Web from 'reduce-loader!../common/Web.vue'
 import 'reduce-loader!./web'
 
@@ -39,6 +41,7 @@ export default Vue.extend({
     Header,
     Footer,
     Web,
+    MainBanner,
   },
   created() {
     window.addEventListener('wxload', query => console.log('page1 wxload', query))
