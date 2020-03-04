@@ -1,6 +1,7 @@
 <template>
   <div class="cnt">
     <Header></Header>
+    <p>detail 模块</p>
     <button @click="onClickBack">回到上一页</button>
     <Footer></Footer>
   </div>

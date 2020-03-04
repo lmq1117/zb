@@ -1,6 +1,7 @@
 <template>
   <div class="cnt">
     <Header></Header>
+    <p>list模块</p>
     <a href="/home">回到首页</a>
     <button @click="onClickJump">回到首页</button>
     <Footer></Footer>
