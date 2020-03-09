@@ -28,8 +28,6 @@ export default {
 </script>
 
 <style>
-  .page__bd {
-    padding: 0 15px;
-  }
+
 
 </style>

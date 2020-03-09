@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import { sync } from 'vuex-router-sync'
+import 'weui/dist/style/weui.css'
 
 Vue.config.productionTip = false
 
