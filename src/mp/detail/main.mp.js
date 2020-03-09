@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import { sync } from 'vuex-router-sync'
 import App from '../../App.vue'
 import store from '../../store'
-import Home from '../../home/Index.vue'
+import Detail from '../../detail/Index.vue'
 
 Vue.use(Router)
 
@@ -11,8 +11,8 @@ const router = new Router({
   mode: 'history',
   routes: [{
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'Detail',
+    component: Detail,
   }],
 })
 

@@ -17,8 +17,9 @@ module.exports = {
   mode: 'production',
   entry: {
     // js 入口
-    home: path.resolve(__dirname, '../src/mp/home/main.mp.js'),
-    other: path.resolve(__dirname, '../src/mp/other/main.mp.js'),
+    home: path.resolve(__dirname, '../src/mp/home/main.mp.js'),//产品列表
+    detail: path.resolve(__dirname, '../src/mp/detail/main.mp.js'),//产品详情
+    about: path.resolve(__dirname, '../src/mp/about/main.mp.js'),//关于我们
   },
   output: {
     path: path.resolve(__dirname, '../dist/mp/common'), // 放到小程序代码目录中的 common 目录下
@@ -195,7 +196,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.isMiniprogram': process.env.isMiniprogram, // 注入环境变量，用于业务代码判断
+      'process.env.isMiniprogram': true, // 注入环境变量，用于业务代码判断
     }),
     new MiniCssExtractPlugin({
       filename: '[name].wxss',

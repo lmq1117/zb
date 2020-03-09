@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-const Home = () => import(/* webpackChunkName: "Home" */'@/home/Index.vue')
-const List = () => import(/* webpackChunkName: "List" */'@/list/Index.vue')
+const Home = () => import(/* webpackChunkName: "Home" */'@/home/Index.vue') // list
 const Detail = () => import(/* webpackChunkName: "Detail" */'@/detail/Index.vue')
+const About = () => import(/* webpackChunkName: "Detail" */'@/about/Index.vue')
+// const About = () => import(/* webpackChunkName: "Detail" */'@/About/.vue')
 
 Vue.use(Router)
 
@@ -18,16 +19,13 @@ export default new Router({
     name: 'HomeHtml',
     component: Home,
   }, {
-    path: '/test/(home|index)',
-    name: 'HomeTest',
-    component: Home,
-  }, {
-    path: '/test/list/:id',
-    name: 'List',
-    component: List,
-  }, {
-    path: '/test/detail/:id',
+    path: '/detail',
     name: 'Detail',
     component: Detail,
-  }],
+  }, {
+    path: '/about',
+    name: 'About',
+    component: About,
+  }
+  ],
 })
